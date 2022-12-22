@@ -11,3 +11,6 @@ make load-test-10
 make load-test-50
 make load-test-500
 ```
+
+# Issues
+- Performance in the container is a lot lower than performance against a local process
