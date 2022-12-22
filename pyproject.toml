@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "whylogs-container-benchmarks"
+version = "0.1.0"
+description = ""
+authors = ["Anthony Naddeo <anthony@whylabs.ai>"]
+readme = "README.md"
+packages = [{include = "whylogs_container_benchmarks"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
